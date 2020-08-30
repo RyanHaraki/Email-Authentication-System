@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+
+    <form action="/" method="POST">
+    <input type="text" placeholder="Your Name" name="userName" id="userName" required>
+    <input type="email" placeholder="Your Email" name="userEmail" id="userEmail" required>
+    <input type="password" placeholder="Password, minimum 8 characters" pattern=".{8,}" name="userPass" id="userPass" required>
+    <button type="submit">Submit</button>
+    </form>
+    <a href="/login">Have an account? Login</a>
+</body>
+</html>
